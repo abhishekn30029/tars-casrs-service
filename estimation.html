@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/estimation.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/menubar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/emailsubscribe.css">
+    <script src="index.js" type="text/javascript" ></script> 
+</head>
+<body>
+    <div class="header">
+        <div class="menu_bar">
+          <div class="topnav" id="myTopnav">
+            <div class="logo">
+              <img src="images/tarscarslogo.png">
+            </div>
+              <div class="options">
+              <a href="index.html" >HOME</a>
+              <a href="services.html" >SERVICES</a>
+              <a href="about.html" >ABOUT US</a>
+              <a href="contact.html">CONTACT US</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;justify-content:space-between">
+            <div class="head-txt-link">
+            <h1 id="h1">Service Cost<br>Calculator</h1>
+             <span style="display: flex;"><a href="booknow.html" id="arrow">&#8594;</a><a href="booknow.html">Service Booking</a></span>
+            </div>
+        </div>
+       
+    </div>
+    <p id="p1">Calculate the indicative cost for periodic maintenance service</p>
+    <div class="form">
+    <form name="myform" >
+        <hr style="background: #D9D9D9;border: 1px solid #3B26BC;">
+        <div class="estimation-inputs">
+            <div>
+            <label for="brand">Brand*</label><br>
+            <select id="brand" name="brand" required onclick="hide1()">
+              <option value="" disabled selected>brand</option>
+              <option value="1">Ford</option>
+              <option value="2">Honda</option>
+              <option value="3">Hyundai</option>
+              <option value="4" >Kia</option>
+              <option value="5" >Mahindra</option>
+              <option value="6" >Maruti Suzuki</option>
+              <option value="7">Renault</option>
+              <option value="8" >Toyota</option>
+              <option value="9" >others</option>
+            </select>
+            </div>
+            <div>
+            <label for="model">Model*</label><br>
+            <input type="text" id="model" name="model" placeholder="model" required>
+            </div>
+        </div>
+        <div class="estimation-inputs">
+            <div>
+                <label for="engine">Engine*</label><br>
+                <select id="engine" name="engine" required onclick="hide1()">
+                  <option value="" disabled selected>engine</option>
+                  <option value="1" >petrol</option>
+                  <option value="2" >diesel</option>
+                  <option value="3" >electric</option>
+                  
+                </select>
+            </div>
+            <div>
+                    <label for="service type">service type*</label><br>
+                    <select id="servicetype" name="servicetype" required onclick="hide1()">
+                      <option value="" disabled selected >service type</option>
+                      <option value="1">Paid service</option>
+                      <option value="2">Free service</option>
+                      <option value="3">running service</option>
+                      <option value="4">OTHER</option>
+                    </select>
+            </div>
+        </div>
+        <hr style="background: #D9D9D9;border: 1px solid #3B26BC;">
+        <div class="estimation-inputs">
+            <div>
+            <label for="state">State*</label><br>
+            <select id="state" required >
+              <option value="" disabled selected>state</option>
+              <option value="Karnataka">karnataka</option>
+            </select>
+            </div>
+            <div>
+            <label for="city">City*</label><br>
+            <select id="city" required>
+              <option value="" disabled selected>city</option>
+              <option value="Bengaluru">bengaluru</option>
+            </select>  
+          </div>   
+        </div>
+        <div id="hide" style="display:flex; justify-content:center">
+          <div>
+          <label for="result" style="font-size: 150%;color: rgb(1, 7, 95);;">Total Cost</label><br/> 
+          <input type="text" id="result" Size=8 style="text-align:center"> </div>
+        </div>
+       
+        <button   type="button" id="calculate" onclick="calculatePrice()">CALCULATE</button>
+       
+      </form>
+    </div>
+    <h1>Subscribe Tars Cars for our latest updates...!</h1> 
+    <div >
+      <input type="email" id="email-subscribe" name="email" placeholder="E-mail" required>
+    <button id="subscribe">subscribe</button>
+    </div>
+    <div style="display: flex;justify-content: right;margin-top: 50px;">
+    <img src="images/footer-img/Rectangle5 .png" style="width: 25%;">
+    </div>
+  <div class="footer">
+      <div class="footer-about">
+        <P style="margin-bottom:25px;">ABOUT TARSCARS</p>
+        <P>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</P>
+        <div class="social-media">
+          <a href="https://www.facebook.com/"><img src="images/footer-img/facebook.png" style=" width: 43px;height: 45px;"></a>
+          <a href="https://twitter.com/"><img src="images/footer-img/twiterlogo.png"></a>
+          <a href="https://instagram.com/"><img src="images/footer-img/INSTAGRAM.png"></a>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <P>CONTACT</P>
+        <a href=""><img src="images/footer-img/whatsapplogo.png" style="height:40px"></a>
+        <P>PHONE<br>
+          0800 123-2547
+        </P>
+        <img src="images/footer-img/24logo.png" style="height: 80px;">
+        <p>BUSINESS HOURS<br>
+          12:00AM - 11:59PM</p>
+      </div>
+      <div class="footer-services">
+          <h1>SERVICES</h1>
+          <ul>
+            <li>Wheel Alignment</li>
+            <li>Brakes</li>
+            <li>Exhausts</li>
+            <li>Welding</li>
+            <li>Wheel Balancing</li>
+            <li>Batteries</li>
+          </ul>
+        
+  
+      </div>
+      <div class="footer-brand">
+        <h1>FAMOUS BRANDS </h1>
+        <ul>
+          <li>Ford</li>
+          <li>Honda</li>
+          <li>Hyundai</li>
+          <li>kia</li>
+          <li>Maruti Suzuki</li>
+          <li>Mahindra</li>
+          <li>Renault</li>
+          <li>Toyota</li>
+        </ul>
+      </div>
+  </div>
+  
+</body>
+</html>
