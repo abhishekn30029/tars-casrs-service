@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+}
+
+.header{
+    background: url("/intershipproject/images/contactus-image/contactusbg.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 357px;
+    margin-bottom: 30px;
+}
+.header>h1{
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+display: flex;
+justify-content: right;
+color: rgba(86, 188, 38, 0.79);
+margin-top:100px;
+
+}
+.lets-talk>p{
+        font-weight:900;
+        font-size: 40px;
+        line-height: 48px;
+        display: flex;
+        align-items: center;
+        display: contents;
+        border:  1px;
+        color: #023767;
+}
+.head-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    column-gap: 50px;
+}   
+.b>#h1,.corporate>#h1,.email>#h1{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    color: rgba(17, 73, 182, 0.62);
+    margin-top: 20px;
+    
+
+
+}
+.b{
+    width: 493px;
+    height: 144px;
+    background: #C2DBF2;
+    border-radius: 8px;
+    padding-left: 20px;
+    
+}
+hr{
+    width: 70px;
+    height: 5px;
+    background-color:  #57B75B;
+    border-radius: 20px;
+    
+
+}
+.b p{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.corporate-contact{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.corporate{
+    
+    background: #C2DBF2;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.email{
+    width: 493px;
+    height: 100%;
+    background: #C2DBF2;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+@media(max-width:1024px){
+    .b{
+        width:auto;
+     }
+
+}
+@media(max-width:720px){
+    .b>#h1,.corporate>#h1,.email>#h1{
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    hr{
+        width: 40px;
+        height:3px
+    }
+    .b p{
+        font-weight: 800;
+        font-size: 15px;
+    }
+    .b{
+        height: auto;
+    }
+    .lets-talk>p{
+        font-weight:900;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+}
+
+@media(max-width:420px){
+    .head-content{
+        display: block;
+    }
+    .corporate-contact{
+        display:block;
+    }
+    .corporate{
+        margin-bottom: 20px;
+    }
+    .email{
+        width:auto;
+    }
+
+}
+
+
