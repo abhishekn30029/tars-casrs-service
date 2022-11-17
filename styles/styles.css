@@ -3,7 +3,7 @@
 }
 
 .landing_page{
-    background: url("https://abhishekn30029.github.io/images/home-img/homebg.png");
+    background: url("../images/home-img/homebg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
