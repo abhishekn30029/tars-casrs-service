@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+.header{
+    background: url("/intershipproject/images/about-us-image/aboutusbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+}
+.header>h1{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    color: #457474;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.our-mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.our-mission-img>img{
+    width: 442px;
+    height: 270px;
+}
+.our-mission-txt{
+    margin-left: 10px;
+}
+.our-mission-txt>p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #01294E;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#who,#who-discription{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #012B52;
+    margin: 3%;
+}
+#list{
+    color:#012B52;
+    font-weight: 700;
+     margin-left: 3%;
+     margin-right: 3%;
+}
+#list-h1{
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom:20px
+}
+#p1{
+        color: #012B52;
+        font-weight: 700;
+        margin-left: 3%;
+        margin-right: 3%;
+}
+@media(max-width: 1024px ){
+    .our-mission-img>img{
+        width: 300px;
+        height: 200px;
+    }
+    .our-mission-txt>p{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .header>h1{
+        font-size: 80px;  
+    }
+}
+@media(max-width:720px){
+    .our-mission-img>img{
+        width: 200px;
+        height: 150px;
+    }
+    .our-mission-txt>p{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+   
+
+}
+@media(max-width:600px){
+    .our-mission-img>img{
+        width: 175px;
+        height: 130px;
+    }
+    .our-mission-txt>p{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .our-mission{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}
+@media(max-width:420px){
+    .our-mission-img>img{
+        width: 100px;
+        height: 75px;
+    }
+    .our-mission-txt>p{
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 8px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .our-mission{
+        margin:5px
+    }
+    .header>h1{
+        font-size: 40px;  
+    }
+
+}

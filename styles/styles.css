@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+}
+
+.landing_page{
+    background: url("/intershipproject/images/home-img/homebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+}
+.hero_txt h1{
+    color: white;
+    width: 545px;
+    height: 192px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+   
+  
+}
+.hero_txt{
+    margin-top: 151px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.booknow>a{
+    background-color: #023767;
+    padding-left: 190px;
+    padding-right: 190px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+}
+.booknow>a:hover, .about-us-button>a:hover,.all-service-button>a:hover{
+    background-color: white;
+    color:#023767 ;
+    border: solid;
+    border-color:#023767  ;
+    transition: 0.3s;
+
+}
+.booknow>a:active,.about-us-button>a:active,.all-service-button>a:active{
+    opacity: 0.6;
+}
+.about-us-button>a{
+    background-color: #023767;
+    padding-left: 190px;
+    padding-right: 190px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+
+}
+.booknow
+{
+    margin-top: 30px;
+    display:flex;
+    justify-content: right;
+    margin-right: 5%;
+}
+/* about us */
+.about{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-left: 159px;
+margin-right: 159px;
+
+}
+.about-img>img{
+    width: 491px;
+    height: 474px;
+
+}
+.about-txtbutton>h1{
+    width: 565px;
+    height: 294px;
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #023767;
+}
+
+.service_txt_main{
+    font-weight: 600;font-size: 40px;
+}
+.txt_Slides{
+    font-weight: 600;font-size: 40px;
+
+}
+.carlogo{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.carlogo>img{
+    Width:20%;
+    Height:40%;
+}
+/* animation slides */
+.mySlides {
+    display: none;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.mySlides>img{    
+    width: 100%;
+    height: 500px;
+}
+.stearing{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.stearing>img{
+    height: 20%;
+    width: 20%;
+}
+/* maintanance-service */
+.maintanance-service>h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #023767;
+}
+.sevice-blocks{
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+} 
+.b{
+    border: solid 1px ;
+    border-color: rgba(190, 187, 187);
+    margin-bottom: 10px;
+    Width:259px;
+    height:356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    
+}
+.b>p{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2480D4;
+}
+.block-color{
+    height: 60px;
+    background: #48E1E1;  
+}
+.b-top>p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3B26BC;
+    margin-top: 38px;
+    margin-right: 22px;
+}
+
+.b-top{
+    display: flex;
+    justify-content: space-between;
+}
+.all-service-button{
+    display:flex;
+    justify-content: center
+
+}
+.all-service-button>a{
+    background-color: #023767;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+#estimation{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42pxpx;
+    color: #023767;
+}
+#estimation>a{
+    color: #AA007A;
+    transition: 0.3ms;
+}
+#estimation>a:hover{
+    color: #02672c;
+
+}
+#estimation>a:active{
+    opacity: 0.6;
+
+}
+
+
+@media(max-width: 1024px ) {
+    .service_txt_main{
+        font-size: 30px;
+        font-weight: 600;
+        
+    }
+    .txt_Slides{
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+    .slideshow-container {
+        max-width: 600px;
+        position: relative;
+        margin: auto;
+      }
+      .about-img>img{
+        width: 300px;
+        height: 300px;
+    }
+    .about-txtbutton>h1{
+        width: 300px;
+        font-size: 30px;
+        line-height: 40px;
+        height: 150px;
+    }
+    .about-us-button>a{
+        background-color: #023767;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-weight: 300;
+        font-size: 25px;
+        margin-top: 10px;
+    
+    }
+    .about{
+       
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+    .mySlides>img{    
+        width: 600px;
+        height: 350px;
+    }
+    .maintanance-service>h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+       
+    }
+    .sevice-blocks{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        align-items:center ;
+        column-gap: 8px;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+   
+
+    
+}
+@media(max-width:720px)
+{
+    .hero_txt h1{
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+    .hero_txt{
+        margin-top: 151px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .booknow a{
+        background-color: #023767;
+        padding-left: 25%;
+        padding-right: 25%;
+        border-radius: 18px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight:100;
+        font-size: 150%;
+      
+    }
+    .booknow
+    {
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    margin-right: 5%;
+  
+    
+    }
+    .service_txt_main{
+            font-size: 30px;
+            font-weight: 600;
+            
+    }
+    .txt_Slides{
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+    .mySlides>img{    
+        width: 600px;
+        height: 300px;
+    }
+    .maintanance-service>h1{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+   
+    .sevice-blocks{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 40px;
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    #estimation{
+        font-size: 30px;
+    }
+    
+
+}
+@media(max-width :600px ) {
+    .service_txt_main{
+        font-size: 130%;
+        font-weight: 600;
+        
+    }
+    .txt_Slides{
+     font-size: 130%;
+        font-weight: 600;
+    }
+    .about-img>img{
+        width: 250px;
+        height: 250px;
+    }
+    .about-txtbutton>h1{
+        width: 180px;
+        font-size: 20px;
+        line-height: 20px;
+        height: 120px;
+    }
+    .about-us-button>a{
+        background-color: #023767;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 10px;
+    
+    }
+    .about{
+       
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .mySlides>img{    
+        width: 60%;
+        height: 200px;
+        margin-left: 100px;
+    }
+    .maintanance-service>h1{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .sevice-blocks{
+        display:flex;
+        flex-direction: column;
+    }
+   
+    
+
+}
+@media(max-width :420px ) {
+    .service_txt_main{
+        font-size: 80%;
+        font-weight: 600;
+        
+    }
+    .txt_Slides{
+     font-size: 80%;
+        font-weight: 600;
+    }
+    .mySlides>img{   
+        margin-left: 20%; 
+        width: 600px;
+        height: 300px;
+    }
+    .about-img>img{
+        width: 120px;
+        height: 120px;
+    }
+    .about-txtbutton>h1{
+        width: 100px;
+        font-size: 15px;
+        line-height: 15px;
+        height: 80px;
+    }
+    .about-us-button>a{
+        background-color: #023767;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: 200;
+        font-size: 10px;
+        margin-top: 10px;
+    
+    }
+    .about{
+       
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .mySlides>img{    
+        width: 60%;
+        height: 100px;
+        
+    }
+    .maintanance-service>h1{
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .sevice-blocks{
+        display:flex;
+        flex-direction: column;
+    }  
+    #estimation{
+        font-size: 20px;
+    }
+      
+}
+
