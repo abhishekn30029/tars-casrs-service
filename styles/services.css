@@ -2,7 +2,7 @@
     margin:0;
 }
 .header{
-    background: url("/intershipproject/images/services-images/servicesbg.png");
+    background: url("../images/services-images/servicesbg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
