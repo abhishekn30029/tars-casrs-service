@@ -4,6 +4,7 @@
 
 .landing_page{
     background: url("images/home-img/homebg.png");
+    background-img:url("images/home-img/homebg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
