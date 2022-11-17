@@ -3,7 +3,7 @@
 }
 
 .header{
-    background: url("/intershipproject/images/contactus-image/contactusbg.png");
+    background: url("../images/contactus-image/contactusbg.png");
     background-repeat: repeat-x;
     background-size: cover;
     height: 357px;
