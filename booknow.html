@@ -43,7 +43,7 @@
       You can book your car service appointment by filling up the form given below.
     </p>
     <div class="form">
-      <form method="POST" action=":8080/form" onsubmit="myjsfunction()"> 
+      <form onsubmit="myjsfunction()"> 
         <label for="salutation">Salutation*</label>
         <br>
         <input type="radio" id="salutation" name="salutation" value="mr" required ><label for="mr">mr.&nbsp;&nbsp;&nbsp;&nbsp;</lable><span>&nbsp;</span>
@@ -97,7 +97,7 @@
         <input type="radio" id="salutation" name="sercvice-type" value="Drop only" required ><p style="display: contents;">drop only.&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
         <input type="radio" id="salutation" name="sercvice-type" value="Drop only" required ><p style="display: contents;">pickup&drop.&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
         <input type="radio" id="salutation" name="sercvice-type" value="Doorstep advantage" required><p style="display: contents;">Doorstep advantage.&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
-        <button type="submit" id="booknow">BOOK NOW</button>
+        <button type="button" onclick = "sub()" id="booknow">BOOK NOW</button>
      
       </form>
       
