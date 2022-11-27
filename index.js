@@ -50,3 +50,27 @@ function myjsfunction()
 {
   return false; 
 }
+function sub(){
+  alert("Thankyou for booking.Your form is Submitted");
+  window.location.href='index.html';
+}
+function sub1(){
+  alert("Thankyou for Subscribing.");
+  window.location.href='booknow.html';
+}
+function sub2(){
+  alert("Thankyou for Subscribing.");
+  window.location.href='index.html';
+}
+function sub3(){
+  alert("Thankyou for Subscribing.");
+  window.location.href='estimation.html';
+}
+function sub4(){
+  alert("Thankyou for Subscribing.");
+  window.location.href='contact.html';
+}
+function sub5(){
+  alert("Thankyou for Subscribing.");
+  window.location.href='about.html';
+}
